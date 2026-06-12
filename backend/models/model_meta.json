@@ -1,0 +1,31 @@
+{
+  "numeric_features": [
+    "QUANTITYORDERED",
+    "PRICEEACH",
+    "MSRP",
+    "month",
+    "quarter"
+  ],
+  "categorical_features": [
+    "PRODUCTLINE",
+    "DEALSIZE"
+  ],
+  "target": "SALES",
+  "product_lines": [
+    "Classic Cars",
+    "Motorcycles",
+    "Planes",
+    "Ships",
+    "Trains",
+    "Trucks and Buses",
+    "Vintage Cars"
+  ],
+  "deal_sizes": [
+    "Small",
+    "Medium",
+    "Large"
+  ],
+  "test_r2": 0.9319,
+  "test_mae": 248.68,
+  "cv_r2_mean": 0.9273
+}
